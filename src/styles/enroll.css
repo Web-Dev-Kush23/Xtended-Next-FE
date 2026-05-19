@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.enrollban {
+  background-image: url(https://xtendedspace.s3.ap-south-1.amazonaws.com/pack-move-store/webbanner.jpg);
+  /* border-image: fill 0 linear-gradient(#0001, #000); */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-color: rgb(239, 244, 244);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width: 100%;
+  min-height: 100vh;
+
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .enrollban {
+    /* background-image: url(https://xtendedspace.s3.ap-south-1.amazonaws.com/pack-move-store/mobilebanner_design_new.gif); */
+    background: linear-gradient(#328AFE, #025dd6);
+  }
+}
+.enrollbanner {
+  /* background-image: url("https://xtendedspace.s3.ap-south-1.amazonaws.com/static/modern-cricket-stadium1.webp"); */
+  /* border-image: fill 0 linear-gradient(#0001, #000); */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-color: rgb(239, 244, 244);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width: 100vw;
+  height: 100vh;
+
+  position: relative;
+}
+
+.enrollcontent {
+  text-shadow: 2px 2px 4px white;
+}
+.enrolllogo {
+  filter: drop-shadow(0px -10px 5px white);
+  /* box-shadow: -2px -2px 5px 5px white; */
+}
+
+@media (max-width: 767px) {
+  .enrollform {
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    width: 90%;
+    height: auto;
+    transform: translate(-50%, -2%);
+    margin: 0;
+  }
+  .enrollcontent {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+h1 .never {
+  font-family: "Tangerine" !important ;
+}
+.enrollservices {
+  backdrop-filter: blur(50px);
+  box-shadow: 0px 0px 10px white;
+  border-radius: 10px;
+}
+
+.animation-btn {
+  animation: shimmer 9s linear infinite;
+  background: #8ec63f;
+  /* background: linear-gradient(90deg, #1ec28b 4%, #26ecaa 25%, #09be81 36%); */
+  background-size: 1000px 100%;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  to {
+    background-position: 1000px 0;
+  }
+}
+
+.popupwebsite {
+  width: 100%;
+  height: 60%;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.enrolban {
+  /* background-image: url(https://xtendedspace.s3.ap-south-1.amazonaws.com/static/Banner_design3.gif); */
+  /* background-image: url(https://xtendedspace.s3.ap-south-1.amazonaws.com/static/banner-new.jpeg); */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-color: rgb(239, 244, 244);
+
+  background-repeat: no-repeat;
+
+  width: 100%;
+  min-height: 90vh;
+
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .enrolban {
+    max-height: 70vh;
+    min-height: 0;
+    padding: 50px;
+    /* background-image: url(https://xtendedspace.s3.ap-south-1.amazonaws.com/static/banner-new.jpeg); */
+  }
+}
+.landingnav {
+  padding: 0 50px;
+}
+@media screen and (max-width: 778px) {
+  .landingnav {
+    padding: 0 20px;
+  }
+}
+
+/* (https://xtendedspace.s3.ap-south-1.amazonaws.com/static/mobilebanner_design_new.gif) */
+.offer-online{
+  background-image: url(https://xtendedspace.s3.ap-south-1.amazonaws.com/pack-move-store/offers+banner.webp);
+  background-position: calc(65% + 10px) center;
+  background-size: cover;
+  position: relative;
+  background-color: rgb(239, 244, 244);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+@media screen and (max-width: 778px) {
+  .offer-online{
+    background-image: none;
+    background-color: white;
+    background-position: center;
+  }
+}
+.storage-btn{
+  /* animation: shimmer 9s linear infinite; */
+  background: linear-gradient(135deg, #5089C1 20%, #73B7E1 40%, #307ac4 65%, #73B7E1 80%);
+  background-size: 1000px 100%;
+  animation: shimmerDiagonal 6s linear infinite;
+}
+
+@keyframes shimmerDiagonal {
+  0% {
+    background-position: top left;
+  }
+  50% {
+    background-position: bottom right;
+  }
+  100% {
+    background-position: top left;
+  }
+}
+.robot {
+  animation: floatRobot 2s ease-in-out infinite;
+}
+
+@keyframes floatRobot {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px); 
+  }
+  100% {
+    transform: translateY(0px);  
+  }
+}

@@ -1,0 +1,1 @@
+export const AWS_IMAGE_URL = "https://xtendedspace.s3.ap-south-1.amazonaws.com/static/";

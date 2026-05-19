@@ -1,0 +1,38 @@
+.other-items{
+    background-image: url(https://xtendedspace.s3.ap-south-1.amazonaws.com/Blogs/blog-cat-1.webp);
+    /* width: 17vw; */
+    width: 85%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+
+  .other-items1{
+    background-image: url(https://xtendedspace.s3.ap-south-1.amazonaws.com/Blogs/Packing.webp);
+    /* width: 17vw; */
+    width: 85%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .other-items2{
+    background-image: url(https://xtendedspace.s3.ap-south-1.amazonaws.com/Blogs/logistics.webp);
+    /* width: 17vw; */
+    width: 85%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  @media (max-width: 320px) {
+    .custom_mobile {
+      font-size: 12px;
+      line-height: 16px;
+      padding: 10px;
+    }
+}

@@ -1,0 +1,203 @@
+.background_image{
+    /* background-image: url(/images/home/liststorage-banner.jpg); */
+    width: 100%;
+    height: auto;
+    
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px) {
+    .background_image {
+        width: 100vw;
+        height: auto;
+       
+        background-size: contain;
+        
+        background-repeat: no-repeat;
+    }
+    
+}
+/* *****************************************Storage Space*********************************************** */
+
+.checkbox-custom {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1rem;
+    height: 1rem;
+    background-color: #fff;
+    border: 2px solid #8DC63F; /* Border color */
+    border-radius: 0.25rem;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox-custom:checked {
+    background-color: #8DC63F; /* Custom background color when checked */
+}
+
+.checkbox-custom::before {
+    content: "\2714"; /* Unicode character for checkmark */
+    font-size: 0.8rem; /* Adjust size as needed */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Color of the checkmark */
+}
+
+.notification-button {
+    position: relative;
+}
+
+.notification-button .tooltip-text {
+    visibility: hidden;
+    background-color: #8DC63F;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 50%;
+    left: 60%;
+    top: 60%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.notification-button:hover .tooltip-text {
+    visibility: visible;
+}
+
+
+
+
+/* ################################## virtual section #################################$$$$$$$$$$$$$$$ */
+/* .backgro_image {
+    background-image: url('/images/storagelisting/hemant.png');
+   
+    background-size: cover; 
+    background-position: center; 
+  } */
+  .virtualclass {
+    background-image: url('/images/list-storage/PassiveIncome.png'); 
+    background-size: cover; 
+    background-position: center; 
+  }
+  .simplyfy_storage{
+    background-image: url('/images/storagelisting/Rectangle 24.png');
+    background-size: cover;
+    background-position: center; 
+  }
+  .shadow-custom {
+    box-shadow: 0px 1px 2px 0px #1F2937, 0px 1px 2px 0px #1F2937;
+  }
+  .stopara{
+    font-size: 44px;
+    line-height: 64px;
+  }
+  .Storage_button{
+   margin-top: 45px;
+  }
+  /* Define styles for the container */
+.custom-container {
+    width: 220px;
+    font-weight: 600;
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: 1.25;
+    color: white;
+    background-color: #338cff;
+    padding: 0.5rem; 
+    text-align: center;
+  }
+  
+  
+  .custom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+  }
+  
+  /* Media query for mobile view */
+  @media (max-width: 767px) {
+    .custom-container {
+      margin: 0 auto; /* Center the container horizontally */
+    }
+  }
+  /* Media query for mobile view */
+@media (min-width: 768px) {
+    .mobile-book-now {
+      display: none; /* Hide the button on larger screens */
+    }
+  }
+  /* **************************************Book your space******************************************** */
+  
+  .custom-shadow {
+    box-shadow: 0px 0px 9.7px 0px #1B1C5714;
+  }
+  .cancel_button {
+    box-shadow: 0px 1px 2px 0px #1F293714;
+  }
+ 
+  
+  
+  input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-image: none !important;
+    background-color: none !important;
+    color: fieldtext !important;
+}
+
+  .default-details{
+    white-space: wrap !important;
+  }
+  input[type="radio"]:checked + label {
+  color: #0d6efd;
+}
+.loaderWrapper{
+  text-align: center;
+ 
+  
+  display: inline-block;
+}
+.loaderWrapper span{
+  background: yellow;
+  padding: 10px;
+    border-radius: 10px;
+}
+#hassel{
+  margin-top: 10px;
+}
+@media (min-width: 1024px) {
+  #hassel {
+    margin-top: -30px;
+  }
+}
+.rating {
+  font-size: 1.5em;
+  font-weight: normal;
+  position: relative;
+  width: max-content;
+  
+}
+
+.rating:before {
+  content: "☆☆☆☆☆";
+  color: gray;
+  
+}
+
+.rating:after {
+  content: "★★★★★";
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  width: calc(var(--rating) * 1%);
+  overflow: hidden;
+  color: gold; 
+}

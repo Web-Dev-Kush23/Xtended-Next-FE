@@ -1,0 +1,76 @@
+input#phone {
+    background-color: white;
+} 
+p.spare.flex.justify-center.items-center.text-sm.font-bold.mt-4 {
+    color: #1B1C57;
+}
+h3.flex.justify-center.item-center.mt-4.ml-\[75px\].w-\[200px\].p-2.border.rounded-xl.items-center {
+    padding: 12px 16px 12px 16px;
+    gap: 8px;
+    border-radius: 8px 0px 0px 0px;
+    width: 290px;
+    height: 48px;
+    background-color: #8DC63F;
+    color: white;
+}
+.flex.flex-wrap.justify-start.items-start.gap-\[10px\].md\:gap-\[10px\].mt-\[10vh\].md\:mt-\[10vh\] {
+    white-space: nowrap;
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    .flex.flex-wrap.justify-start.items-start.gap-\[10px\].md\:gap-\[10px\].mt-\[10vh\].md\:mt-\[10vh\] a {
+      font-size: 12px; 
+      font-weight: 900px;
+    }
+  }
+
+  /* Image container text here */
+
+  .image-container {
+    position: relative;
+  }
+  
+  .overlay-text-container {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay-text {
+    font-size: 24px; 
+    font-weight: bold;
+  }
+  
+  p {
+    margin-top: 10px; 
+  }
+  .overlay-text-container.absolute.inset-0.flex.flex-col.justify-center.items-center.text-white.w-\[55px\]\].h-\[150px\].bg-red-300.border.rounded-3xl {
+    width: 350px;
+    height: 100px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+.otpContainer {
+  margin: 5% auto;
+}
+
+.otpInput {
+  width: 3rem !important;
+  height: 3rem;
+margin-left: 19px;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.overlay-text-container.absolute.inset-0.flex.flex-col.justify-.items-start.text-white.mt-\[300px\] {
+  margin-top: 550px;
+}

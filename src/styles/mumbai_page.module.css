@@ -1,0 +1,51 @@
+/* styles/Home.module.css */
+.backgroundDiv {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://xtendedspace.s3.ap-south-1.amazonaws.com/static/Images/banner1.webp");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+  padding: 0 40px;
+  margin: 0;
+}
+@media  screen and (max-width:1024px) {
+  .backgroundDiv {
+    height: 30vh;
+    padding: 0 20px;
+  }
+}
+
+
+.secondPageBG {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://xtendedspace.s3.ap-south-1.amazonaws.com/static/Images/banner2.webp");
+  background-size: cover;
+  background-position: center;
+  height: 70%;
+  width: 100%;
+  padding: 0 40px;
+  margin: 0;
+}
+@media  screen and (max-width:768px) {
+  .secondPageBG {
+    height: auto;
+  background-image: url("/images/Rectangle.png");
+
+    padding: 10px 20px;
+  }
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, and Opera */
+}

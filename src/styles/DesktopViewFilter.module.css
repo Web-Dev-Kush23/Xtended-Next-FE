@@ -1,0 +1,16 @@
+/* components/DesktopViewFilter.module.css */
+.accordionContent {
+  transition: max-height 1s ease-in-out, opacity 1s ease-in-out;
+  overflow: hidden;
+}
+
+.accordionContentHidden {
+  max-height: 0;
+  opacity: 0;
+}
+
+.accordionContentVisible {
+  opacity: 1;
+}
+
+

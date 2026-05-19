@@ -1,0 +1,47 @@
+.AddressProofImage::file-selector-button {
+  background: #DAECC7;
+  color: #8DC63F;
+}
+
+.AddressProofImage::file-selector-button {
+  background: #DAECC7 !important;
+}
+
+#pandcard::placeholder {
+  color: #8DC63F;
+}
+
+.panCardFileInput::file-selector-button {
+  background: none;
+  border: 1px solid #ddd;
+  outline: none;
+  margin-top: 8.5px;
+  cursor: pointer;
+}
+
+
+.hideScrollBar::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+/* Vivek */
+@media (max-width: 768px) {
+  .no-scroll{
+    scrollbar-width: auto;
+  }
+}
+.no-scroll{
+  scrollbar-width: none;
+}
+
+.emoji-bw:hover{
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+.emoji-bw{
+  filter: grayscale(100%)
+}
+.emoji-color{
+  filter: grayscale(0%);
+}
+

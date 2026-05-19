@@ -1,0 +1,30 @@
+/* body {
+    background-image: url("/next.svg");
+    background-color: #cccccc;
+   } */
+   
+
+   /* ************************ Registration for  Normal customer************* */
+
+   /* Targeting all input fields and setting background color to white */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="address"],
+
+form select {
+  background-color: white;
+}
+select#country {
+    background-color: white;
+}
+/* CSS for reducing width of district select element in mobile view */
+@media (max-width: 640px) {
+    .labelDis select {
+      width: 130px; /* Adjust the width as needed */
+    }
+    .pincode input[type="text"] {
+        width: 130px;
+      }
+  }
+  

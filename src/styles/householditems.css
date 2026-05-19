@@ -1,0 +1,37 @@
+/* @media(max-width: 768px){
+.blogcontent{
+  width: 100%;  
+}
+} */
+
+@media screen and (max-width:767px) {
+  .blogcontent {
+    width: 100%;
+    height: 180px;
+  }
+  .house_para {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .blogcontent {
+    width: 100%;
+    height: 180px;
+  }
+  .blogbanner{
+    padding: 5px 0px !important;
+    height: 35vh !important;
+
+  }
+  .house_para {
+    font-size: 12px;
+    padding: .5rem !important;
+
+  }
+  .hous_class{
+    background: #F7F9FC !important;
+  }
+}
+
+/* @media only screen and (max-width: 3) */

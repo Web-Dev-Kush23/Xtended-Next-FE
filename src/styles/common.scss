@@ -1,0 +1,25 @@
+@import "./homestat.scss";
+@import "./packers.scss";
+.multipleSelect{
+    .ant-select-selection-placeholder{
+        color: #000;
+    }
+    .ant-select-selector{
+        padding: 5px;
+        font-size: 16px;
+    }
+}
+
+.popupForm {
+    .modal-header{
+        display: none;
+    }
+    .modal-body{
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
+}
+.accordion-button {
+    background-color: var(--bs-accordion-inner-border-radius);
+}
