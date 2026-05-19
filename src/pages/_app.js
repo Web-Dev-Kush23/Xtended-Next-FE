@@ -92,7 +92,7 @@ export default function MyApp({ Component, pageProps }) {
     // Check if the script is already loaded
     if (!window.google) {
       const script = document.createElement('script');
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAbIvotWe6gIR8IPuYe_8jY8mK0eLiKr04&libraries=places`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=places`;
       script.async = true;
       document.head.appendChild(script);
     }
